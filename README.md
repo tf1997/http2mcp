@@ -148,7 +148,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 Scan the QR code below to add us on WeChat. Please include a note: `mcp-gateway`, `mcpgw` or `unla`.
 
-<img src="web/public/wechat-qrcode.png" alt="WeChat QR Code" width="350" height="350" />
+<img src="mcp-web/public/wechat-qrcode.png" alt="WeChat QR Code" width="350" height="350" />
 
 ## 📈 Star History
 

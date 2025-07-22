@@ -173,7 +173,7 @@ docker run -d \
 
 扫描下方二维码添加微信，备注：`mcp-gateway`, `mcpgw`或`unla`
 
-<img src="../web/public/wechat-qrcode.png" alt="微信群二维码" width="350" height="350" />
+<img src="../mcp-web/public/wechat-qrcode.png" alt="微信群二维码" width="350" height="350" />
 
 ## 📈 Star 历史
 

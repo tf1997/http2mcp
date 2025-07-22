@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: '20.18.0'
           cache: 'npm'
-          cache-dependency-path: 'web/package-lock.json'
+          cache-dependency-path: 'mcp-web/package-lock.json'
 
       - name: Install dependencies
         run: |
@@ -39,7 +39,7 @@ jobs:
           cd web
           npm run lint
           
-      - name: Build web (dry run)
+      - name: Build mcp-web (dry run)
         run: |
           cd web
           VITE_API_BASE_URL=/api \

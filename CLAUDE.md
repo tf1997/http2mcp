@@ -44,7 +44,7 @@ go run cmd/mcp-gateway/main.go test -c configs/mcp-gateway.yaml
 ### Web Frontend
 
 ```bash
-cd web/
+cd mcp-web/
 npm run dev          # development server
 npm run build        # production build
 npm run lint         # lint TypeScript/React code

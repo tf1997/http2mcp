@@ -103,13 +103,13 @@ jobs:
         run: |
           GOOS=windows GOARCH=amd64 go build -ldflags "-X main.version=${{ env.VERSION }}" -o apiserver-windows-amd64.exe ./cmd/apiserver
 
-      # Build web
-      - name: Install web dependencies
+      # Build mcp-web
+      - name: Install mcp-web dependencies
         run: |
           cd web
           npm ci
 
-      - name: Build web
+      - name: Build mcp-web
         run: |
           cd web
           VITE_API_BASE_URL=/api \
