@@ -2,15 +2,15 @@ package notifier
 
 import (
 	"context"
-	"github.com/amoylab/unla/internal/common/cnst"
+	"http2mcp/internal/common/cnst"
 	"os"
 	"os/signal"
 	"sync"
 	"syscall"
 
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/pkg/utils"
 	"go.uber.org/zap"
+	"http2mcp/internal/common/config"
+	"http2mcp/pkg/utils"
 )
 
 // SignalNotifier implements Notifier using system signals

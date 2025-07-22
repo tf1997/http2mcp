@@ -1,14 +1,14 @@
 package handler
 
 import (
-        "github.com/amoylab/unla/internal/common/config"
 	"github.com/gin-gonic/gin"
-	"github.com/amoylab/unla/internal/apiserver/database"
-	"github.com/amoylab/unla/internal/i18n"
-	"github.com/amoylab/unla/internal/mcp/storage"
-	"github.com/amoylab/unla/internal/mcp/storage/notifier"
-	"github.com/amoylab/unla/pkg/openapi"
 	"go.uber.org/zap"
+	"http2mcp/internal/apiserver/database"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/i18n"
+	"http2mcp/internal/mcp/storage"
+	"http2mcp/internal/mcp/storage/notifier"
+	"http2mcp/pkg/openapi"
 )
 
 // OpenAPI handles OpenAPI related operations

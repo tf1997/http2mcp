@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/amoylab/unla/internal/mcp/session"
-	"github.com/amoylab/unla/pkg/mcp"
 	"go.uber.org/zap"
+	"http2mcp/internal/mcp/session"
+	"http2mcp/pkg/mcp"
 )
 
 // sendProtocolError sends a protocol-level error response

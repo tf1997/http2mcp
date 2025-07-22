@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/template"
-	"github.com/amoylab/unla/pkg/mcp"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/template"
+	"http2mcp/pkg/mcp"
 )
 
 // TransportType represents the type of transport

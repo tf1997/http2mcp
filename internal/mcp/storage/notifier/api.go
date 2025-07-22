@@ -11,11 +11,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/amoylab/unla/internal/common/cnst"
+	"http2mcp/internal/common/cnst"
 
-	"github.com/amoylab/unla/internal/common/config"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
+	"http2mcp/internal/common/config"
 )
 
 // APINotifier implements Notifier using HTTP API

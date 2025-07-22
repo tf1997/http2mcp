@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amoylab/unla/pkg/version"
+	"http2mcp/pkg/version"
 
 	"go.uber.org/zap"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/internal/mcp/session"
-	"github.com/amoylab/unla/pkg/mcp"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/internal/mcp/session"
+	"http2mcp/pkg/mcp"
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
@@ -461,7 +461,7 @@ func (s *Server) handlePostMessage(c *gin.Context, conn session.Connection) {
 		}
 
 		var params struct {
-			Name string `json:"name"`
+			Name      string            `json:"name"`
 			Arguments map[string]string `json:"arguments"`
 		}
 
@@ -547,10 +547,9 @@ func (s *Server) handlePostMessage(c *gin.Context, conn session.Connection) {
 				},
 			})
 		}
-		
+
 		s.sendSuccessResponse(c, conn, req, resp, true)
 		return
-
 
 	default:
 		s.sendProtocolError(c, req.Id, "Unknown method", http.StatusNotFound, mcp.ErrorCodeMethodNotFound)

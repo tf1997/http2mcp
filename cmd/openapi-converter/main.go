@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/amoylab/unla/pkg/openapi"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
+	"http2mcp/pkg/openapi"
 )
 
 var (

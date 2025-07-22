@@ -5,8 +5,8 @@ import (
 
 	"github.com/ifuryst/lol"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/pkg/mcp"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/pkg/mcp"
 )
 
 type (
@@ -125,9 +125,9 @@ type (
 	}
 
 	PromptConfig struct {
-		Name        string              `json:"name" yaml:"name"`
-		Description string              `json:"description" yaml:"description"`
-		Arguments   []PromptArgument    `json:"arguments" yaml:"arguments"`
+		Name           string           `json:"name" yaml:"name"`
+		Description    string           `json:"description" yaml:"description"`
+		Arguments      []PromptArgument `json:"arguments" yaml:"arguments"`
 		PromptResponse []PromptResponse `json:"promptResponse,omitempty" yaml:"promptResponse,omitempty"`
 	}
 
@@ -218,9 +218,9 @@ func (t *PromptConfig) ToPromptSchema() mcp.PromptSchema {
 		})
 	}
 	return mcp.PromptSchema{
-		Name:          t.Name,
-		Description:   t.Description,
-		Arguments:     args,
+		Name:           t.Name,
+		Description:    t.Description,
+		Arguments:      args,
 		PromptResponse: responses,
 	}
 }

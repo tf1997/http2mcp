@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/pkg/utils"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/pkg/utils"
 
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"
 
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/config"
 )
 
 // RedisNotifier implements Notifier using Redis pub/sub

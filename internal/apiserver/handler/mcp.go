@@ -9,15 +9,15 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/amoylab/unla/internal/apiserver/database"
-	"github.com/amoylab/unla/internal/auth/jwt"
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/common/dto"
-	"github.com/amoylab/unla/internal/i18n"
-	"github.com/amoylab/unla/internal/mcp/storage"
-	"github.com/amoylab/unla/internal/mcp/storage/notifier"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v3"
+	"http2mcp/internal/apiserver/database"
+	"http2mcp/internal/auth/jwt"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/common/dto"
+	"http2mcp/internal/i18n"
+	"http2mcp/internal/mcp/storage"
+	"http2mcp/internal/mcp/storage/notifier"
 )
 
 type MCP struct {

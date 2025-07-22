@@ -1,18 +1,18 @@
 package state
 
 import (
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/core/mcpproxy"
-	"github.com/amoylab/unla/pkg/mcp"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/core/mcpproxy"
+	"http2mcp/pkg/mcp"
 )
 
 func (s *State) getRuntime(prefix string) runtimeUnit {
 	runtime, ok := s.runtime[uriPrefix(prefix)]
 	if !ok {
 		return runtimeUnit{
-			tools:       make(map[toolName]*config.ToolConfig),
-			toolSchemas: make([]mcp.ToolSchema, 0),
+			tools:         make(map[toolName]*config.ToolConfig),
+			toolSchemas:   make([]mcp.ToolSchema, 0),
 			prompts:       make(map[promptName]*config.PromptConfig),
 			promptSchemas: make([]mcp.PromptSchema, 0),
 		}

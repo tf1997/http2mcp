@@ -3,7 +3,7 @@ package database
 import (
 	"fmt"
 
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/config"
 )
 
 // NewDatabase creates a new database based on configuration

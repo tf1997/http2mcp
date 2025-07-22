@@ -6,8 +6,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/common/errorx"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/common/errorx"
 )
 
 // Auth defines the authentication oauth interface

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/config"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

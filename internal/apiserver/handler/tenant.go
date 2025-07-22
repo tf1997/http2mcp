@@ -3,13 +3,13 @@ package handler
 import (
 	"time"
 
-	"github.com/amoylab/unla/internal/i18n"
+	"http2mcp/internal/i18n"
 
 	"github.com/gin-gonic/gin"
-	"github.com/amoylab/unla/internal/apiserver/database"
-	"github.com/amoylab/unla/internal/auth/jwt"
-	"github.com/amoylab/unla/internal/common/dto"
 	"go.uber.org/zap"
+	"http2mcp/internal/apiserver/database"
+	"http2mcp/internal/auth/jwt"
+	"http2mcp/internal/common/dto"
 )
 
 // ListTenants handles listing all tenants

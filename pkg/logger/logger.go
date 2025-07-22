@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
+	"http2mcp/internal/common/config"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/amoylab/unla/internal/common/cnst"
 	"github.com/gin-gonic/gin"
+	"http2mcp/internal/common/cnst"
 )
 
 // ErrorCode represents an HTTP status code

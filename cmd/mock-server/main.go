@@ -10,9 +10,9 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/mark3labs/mcp-go/server"
-	"github.com/amoylab/unla/cmd/mock-server/backend"
-	"github.com/amoylab/unla/pkg/version"
 	"github.com/spf13/cobra"
+	"http2mcp/cmd/mock-server/backend"
+	"http2mcp/pkg/version"
 )
 
 var (

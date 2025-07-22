@@ -5,7 +5,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/config"
 )
 
 // NewStore creates a new auth store based on configuration

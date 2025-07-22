@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/internal/common/config"
 
 	"github.com/glebarez/sqlite"
 	"go.uber.org/zap"

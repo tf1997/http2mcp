@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/amoylab/unla/internal/common/config"
 	"go.uber.org/zap"
+	"http2mcp/internal/common/config"
 )
 
 // CompositeNotifier implements Notifier by combining multiple notifiers

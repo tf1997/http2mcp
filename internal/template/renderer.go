@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/amoylab/unla/internal/mcp/session"
+	"http2mcp/internal/mcp/session"
 )
 
 // Renderer is responsible for rendering templates

@@ -7,13 +7,13 @@ import (
 	"context"
 
 	"github.com/gin-gonic/gin"
-	"github.com/amoylab/unla/internal/apiserver/database"
-	"github.com/amoylab/unla/internal/auth/jwt"
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/common/dto"
-	"github.com/amoylab/unla/internal/i18n"
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
+	"http2mcp/internal/apiserver/database"
+	"http2mcp/internal/auth/jwt"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/common/dto"
+	"http2mcp/internal/i18n"
 )
 
 // Handler represents the authentication handler

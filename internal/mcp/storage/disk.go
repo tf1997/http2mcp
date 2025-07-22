@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/internal/common/config"
 	"gopkg.in/yaml.v3"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/internal/common/config"
 
 	"go.uber.org/zap"
 )

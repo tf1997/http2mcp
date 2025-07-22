@@ -3,7 +3,7 @@ package notifier
 import (
 	"context"
 
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/config"
 )
 
 // Notifier defines the interface for configuration update notification

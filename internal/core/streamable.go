@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/pkg/version"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/pkg/version"
 
-	"github.com/amoylab/unla/internal/mcp/session"
-	"github.com/amoylab/unla/pkg/mcp"
 	"github.com/google/uuid"
 	"go.uber.org/zap"
+	"http2mcp/internal/mcp/session"
+	"http2mcp/pkg/mcp"
 
 	"github.com/gin-gonic/gin"
 )

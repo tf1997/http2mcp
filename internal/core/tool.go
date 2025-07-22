@@ -13,13 +13,13 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/amoylab/unla/internal/mcp/session"
-	"github.com/amoylab/unla/pkg/mcp"
 	"golang.org/x/net/proxy"
+	"http2mcp/internal/mcp/session"
+	"http2mcp/pkg/mcp"
 
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/template"
 	"go.uber.org/zap"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/template"
 )
 
 // prepareRequest prepares the HTTP request with templates and arguments

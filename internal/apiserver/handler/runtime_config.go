@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/amoylab/unla/pkg/version"
 	"github.com/gin-gonic/gin"
+	"http2mcp/pkg/version"
 )
 
 // HandleRuntimeConfig serves frontend runtime config as JSON

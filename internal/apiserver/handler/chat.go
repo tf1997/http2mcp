@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/amoylab/unla/internal/apiserver/database"
-	"github.com/amoylab/unla/internal/i18n"
+	"http2mcp/internal/apiserver/database"
+	"http2mcp/internal/i18n"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

@@ -1,4 +1,4 @@
-module github.com/amoylab/unla
+module http2mcp
 
 go 1.24.1
 

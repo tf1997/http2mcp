@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/config"
+	"http2mcp/internal/common/config"
 )
 
 // Store defines the interface for MCP configuration storage

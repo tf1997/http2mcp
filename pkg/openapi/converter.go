@@ -12,8 +12,8 @@ import (
 	"github.com/ifuryst/lol"
 	"gopkg.in/yaml.v3"
 
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/pkg/utils"
+	"http2mcp/internal/common/config"
+	"http2mcp/pkg/utils"
 )
 
 // Converter handles the conversion from OpenAPI to MCP configuration

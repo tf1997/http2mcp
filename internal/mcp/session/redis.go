@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amoylab/unla/internal/common/cnst"
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/pkg/utils"
+	"http2mcp/internal/common/cnst"
+	"http2mcp/internal/common/config"
+	"http2mcp/pkg/utils"
 
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"

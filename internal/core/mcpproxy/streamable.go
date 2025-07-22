@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/amoylab/unla/internal/common/cnst"
+	"http2mcp/internal/common/cnst"
 
 	"github.com/mark3labs/mcp-go/client"
 	"github.com/mark3labs/mcp-go/client/transport"
 	mcpgo "github.com/mark3labs/mcp-go/mcp"
-	"github.com/amoylab/unla/internal/common/config"
-	"github.com/amoylab/unla/internal/template"
-	"github.com/amoylab/unla/pkg/mcp"
-	"github.com/amoylab/unla/pkg/version"
+	"http2mcp/internal/common/config"
+	"http2mcp/internal/template"
+	"http2mcp/pkg/mcp"
+	"http2mcp/pkg/version"
 )
 
 // StreamableTransport implements Transport using Streamable HTTP

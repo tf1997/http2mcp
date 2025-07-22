@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/amoylab/unla/internal/auth/storage"
-	"github.com/amoylab/unla/internal/common/errorx"
+	"http2mcp/internal/auth/storage"
+	"http2mcp/internal/common/errorx"
 
 	"github.com/google/uuid"
-	"github.com/amoylab/unla/internal/common/config"
 	"go.uber.org/zap"
 	"golang.org/x/crypto/sha3"
+	"http2mcp/internal/common/config"
 )
 
 // oauth implements the auth.Auth interface
