@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v3"
-	"http2mcp/internal/i18n"
 	"http2mcp/mcp-common/config"
 	"http2mcp/mcp-common/dto"
 	"http2mcp/mcp-manager/auth/jwt"
 	"http2mcp/mcp-manager/database"
+	"http2mcp/mcp-manager/i18n"
 	"http2mcp/mcp-manager/storage"
 	"http2mcp/mcp-manager/storage/notifier"
 )
