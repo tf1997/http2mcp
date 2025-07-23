@@ -29,7 +29,7 @@ export default defineConfig(({ mode }) => {
       allowedHosts: true,
       proxy: {
         '/api': {
-          target: env.VITE_DEV_API_BASE_URL || '/api',
+          target: env.VITE_DEV_API_BASE_URL || 'http://127.0.0.1:5234',
           changeOrigin: true,
         }
       },

@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/zap"
 	"http2mcp/mcp-common/config"
-	"http2mcp/pkg/utils"
+	"http2mcp/mcp-common/utils"
 )
 
 // SignalNotifier implements Notifier using system signals

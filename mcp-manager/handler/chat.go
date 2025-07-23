@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"http2mcp/internal/i18n"
+	"http2mcp/mcp-manager/i18n"
 	"http2mcp/mcp-manager/database"
 
 	"github.com/gin-gonic/gin"

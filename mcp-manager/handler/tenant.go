@@ -3,7 +3,7 @@ package handler
 import (
 	"time"
 
-	"http2mcp/internal/i18n"
+	"http2mcp/mcp-manager/i18n"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"

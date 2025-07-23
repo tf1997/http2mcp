@@ -65,6 +65,14 @@ docker run -d \
   ghcr.io/amoylab/unla/allinone:latest
 ```
 
+### Manually Build And Start
+
+```bash
+go run ./mcp-manager -c configs/mcp-manager.yaml
+go run ./mcp-gateway -c configs/mcp-gateway.yaml
+cd mcp-web && npm install && npm run dev
+```
+
 ### Access and Configuration
 
 1. Access the Web Interface:

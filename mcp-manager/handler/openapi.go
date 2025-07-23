@@ -3,7 +3,7 @@ package handler
 import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"http2mcp/internal/i18n"
+	"http2mcp/mcp-manager/i18n"
 	"http2mcp/mcp-common/config"
 	"http2mcp/mcp-common/openapi"
 	"http2mcp/mcp-manager/database"

@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"http2mcp/mcp-common/cnst"
-	"http2mcp/pkg/utils"
+	"http2mcp/mcp-common/utils"
 
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap"

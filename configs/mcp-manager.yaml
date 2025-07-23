@@ -55,7 +55,7 @@ notifier:
   # Signal configuration (only used when type is signal)
   signal:
     signal: "${APISERVER_NOTIFIER_SIGNAL:SIGHUP}"
-    pid: "${APISERVER_NOTIFIER_SIGNAL_PID:/var/run/mcp-gateway.pid}"
+    pid: "${APISERVER_NOTIFIER_SIGNAL_PID:./mcp-gateway.pid}"
 
   # API configuration (only used when type is api)
   api:
